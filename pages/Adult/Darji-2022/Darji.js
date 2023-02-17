@@ -74,7 +74,7 @@ const scrollSearch = myKey => {
 <meta name="twitter:image" content="https://hbomaxmovies.netlify.app/darji-2022.webp" />
 <meta name="description" content="Watch Darji Full Movie Online on HBOmax Movies™, You can also download darji  - 2022 in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
-<link rel="canonical" href="https://hbomaxmovies.netlify.app/Adult/Darji-2022/Darji/" />
+
  
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
