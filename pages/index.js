@@ -126,7 +126,7 @@ const searchData   = {
 	<meta name="twitter:image" content="https://hbomaxmovies.netlify.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
-  <link rel="canonical" href="https://hbomaxmovies.netlify.app/" />
+  
       </Head>
        
       <main>

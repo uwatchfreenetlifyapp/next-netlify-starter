@@ -75,7 +75,7 @@ const scrollSearch = myKey => {
 <meta name="twitter:image" content="https://hbomaxmovies.netlify.app/an-affair-to-forget-2022.webp" />
 <meta name="description" content="Watch An Affair To Forget Full Movie Online on HBOmax Movies™, You can also download An Affair To Forget - 2023 in full HD quality to watch later offline." />
 <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
-
+<link rel="canonical" href="https://hbomaxmovies.netlify.app/Adult/AnAffairToForget-2022/AnAffairToForget" />
  
   <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
