@@ -59,17 +59,17 @@ const maxData   = {
     "@type": "ListItem",
     "position": 1,
     "name": "Hollywood",
-    "item": "https://hbomaxmovies.netlify.app/Hollywood/hollywood"
+    "@id": "https://hbomaxmovies.netlify.app/Hollywood/hollywood"
   },{
     "@type": "ListItem",
     "position": 2,
     "name": "Bollywood",
-    "item": "https://hbomaxmovies.netlify.app/Bollywood/bollywood"
+    "@id": "https://hbomaxmovies.netlify.app/Bollywood/bollywood"
   },{
     "@type": "ListItem",
     "position": 3,
     "name": "Adult",
-    "item": "https://hbomaxmovies.netlify.app/Adult/adult"
+    "@id": "https://hbomaxmovies.netlify.app/Adult/adult"
   }]
 }
   return (
