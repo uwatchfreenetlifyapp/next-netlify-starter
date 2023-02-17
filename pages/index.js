@@ -71,7 +71,7 @@ const maxData   = {
     "name": "Adult",
     "@id": "https://hbomaxmovies.netlify.app/Adult/adult"
   }]
-}
+};
 const searchData   = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -81,7 +81,7 @@ const searchData   = {
     "target": "https://hbomaxmovies.netlify.app/search?q={search_term_string}",
     "query-input": "required name*search_term_string"
   }
-  }
+  };
   return (
   
     <div >
