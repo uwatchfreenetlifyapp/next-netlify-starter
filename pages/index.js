@@ -59,20 +59,29 @@ const maxData   = {
     "@type": "ListItem",
     "position": 1,
     "name": "Hollywood",
-    "@id": "https://hbomaxmovies.netlify.app/Hollywood/hollywood"
+    "item": "https://hbomaxmovies.netlify.app/Hollywood/hollywood"
   },{
     "@type": "ListItem",
     "position": 2,
     "name": "Bollywood",
-    "@id": "https://hbomaxmovies.netlify.app/Bollywood/bollywood"
+    "item": "https://hbomaxmovies.netlify.app/Bollywood/bollywood"
   },{
     "@type": "ListItem",
     "position": 3,
     "name": "Adult",
-    "@id": "https://hbomaxmovies.netlify.app/Adult/adult"
+    "item": "https://hbomaxmovies.netlify.app/Adult/adult"
   }]
 };
-
+const searchData   = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://hbomaxmovies.netlify.app/",
+  "potentialAction":{
+    "@type": "SearchAction",
+    "target": "https://hbomaxmovies.netlify.app/search?q={search_term_string}",
+    "query-input": "required name*search_term_string"
+  }
+  };
   return (
   
     <div >
@@ -84,7 +93,10 @@ const maxData   = {
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(maxData) }}
   />
-
+<script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
+  />
       <div class="bg-[#1a202c] ">
       <Head>
         <title>HBOmax Movies™</title>
@@ -114,7 +126,7 @@ const maxData   = {
 	<meta name="twitter:image" content="https://hbomaxmovies.netlify.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
-  
+  <link rel="canonical" href="https://hbomaxmovies.netlify.app/" />
       </Head>
        
       <main>
