@@ -72,6 +72,16 @@ const maxData   = {
     "@id": "https://hbomaxmovies.netlify.app/Adult/adult"
   }]
 }
+const searchData   = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://hbomaxmovies.netlify.app/",
+  "potentialAction":{
+    "@type": "SearchAction",
+    "target": "https://hbomaxmovies.netlify.app/search?q={search_term_string}",
+    "query-input": "required name*search_term_string"
+  }
+  }
   return (
   
     <div >
@@ -82,6 +92,10 @@ const maxData   = {
    <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(maxData) }}
+  />
+   <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(searchData) }}
   />
       <div class="bg-[#1a202c] ">
       <Head>
