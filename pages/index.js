@@ -51,13 +51,37 @@ const schemaData   = {
   "description": "HBOmax Movies™ Hollywood Bollywood Adult | Watch now the Best TV shows and Movies"
 
 };
+const maxData   = {
 
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Hollywood",
+    "item": "https://hbomaxmovies.netlify.app/Hollywood/hollywood"
+  },{
+    "@type": "ListItem",
+    "position": 2,
+    "name": "Bollywood",
+    "item": "https://hbomaxmovies.netlify.app/Bollywood/bollywood"
+  },{
+    "@type": "ListItem",
+    "position": 3,
+    "name": "Adult",
+    "item": "https://hbomaxmovies.netlify.app/Adult/adult"
+  }]
+}
   return (
   
     <div >
    <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+  />
+   <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{ __html: JSON.stringify(maxData) }}
   />
       <div class="bg-[#1a202c] ">
       <Head>
@@ -88,6 +112,7 @@ const schemaData   = {
 	<meta name="twitter:image" content="https://hbomaxmovies.netlify.app/og_image.jpg" />
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720166"></script>
   <script async="async" data-cfasync="false" src="//ophoacit.com/1?z=5720177"></script>
+  <link rel="canonical" href="https://hbomaxmovies.netlify.app/" />
       </Head>
        
       <main>
