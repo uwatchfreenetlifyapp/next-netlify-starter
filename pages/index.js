@@ -74,12 +74,16 @@ const maxData   = {
 };
 const searchData   = {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "url": "https://hbomaxmovies.netlify.app/",
-  "potentialAction":{
-    "@type": "SearchAction",
-    "target": "https://hbomaxmovies.netlify.app/search?q={search_term_string}",
-    "query-input": "required name*search_term_string"
+      "@type": "WebSite",
+      "url": "https://www.example.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://query.example.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      
   }
   };
   return (
